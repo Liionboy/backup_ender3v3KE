@@ -63,10 +63,10 @@ primary_branch = main
 managed_services = klipper
 
 [timelapse]
-output_path = /usr/data/printer_data/timelapse/
-frame_path = /usr/data/printer_data/frames/
+output_path = /tmp/udisk/sda1/timelapse/
+frame_path = /tmp/udisk/sda1/frames/
 ffmpeg_binary_path = /opt/bin/ffmpeg
-snapshoturl = http://localhost:8080/?action=snapshot
+snapshoturl = https://nebula.homelocal.work/?action=snapshot
 
 [update_manager fluidd]
 type = web
